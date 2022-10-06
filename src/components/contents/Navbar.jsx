@@ -1,9 +1,11 @@
+import {Link} from 'react-router-dom';
 import React from 'react';
 import Section from '../layouts/Section';
 import Dropdown from '../layouts/Dropdown';
 import Form from '../layouts/Form';
 
 const Navbar = () => {
+  const listDrowdown = ["Fragancias Hombres", "Fragancias Mujeres"]
     return (
         <>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -11,8 +13,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarColor01">
                   <ul className="navbar-nav me-auto">
                     <Section/>
-                    <Dropdown/>
-                  
+                    <Dropdown lista = {listDrowdown}/>
                   </ul>
                     <Form/>
                 </div>

@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import React from 'react';
 
 const Section = () => {
@@ -5,7 +6,8 @@ const Section = () => {
         <>
           
             <li class="nav-item">
-                        <a class="nav-link active" href="#">Home <span class="visually-hidden">(current)</span></a>
+                <Link class="nav-link active" to="/"> Home <span class="visually-hidden">(current)</span></Link>
+                       
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Nosotros</a>

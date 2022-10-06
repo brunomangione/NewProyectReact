@@ -1,0 +1,73 @@
+[{
+        "id": 1,
+        "idCategoria": 1,
+        "claseCategoria": "Hombres",
+        "nombre": "Dior Homme",
+        "marca": "Dior",
+        "precio": 20000,
+        "stock": 30,
+        "img": "diorhomme.jpeg"
+    },
+    {
+        "id": 2,
+        "idCategoria": 2,
+        "claseCategoria": "Hombres",
+        "nombre": "212 Heroes",
+        "marca": "Carolina Herrera",
+        "precio": 18000,
+        "stock": 15,
+        "img": "heroesm.jpeg"
+    },
+    {
+        "id": 3,
+        "nombre": "212 Heroes Woman",
+        "idCategoria": 3,
+        "claseCategoria": "Mujeres",
+        "marca": "Carolina Herrera",
+        "precio": 19000,
+        "stock": 15,
+        "img": "heroesw.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "Miss Dior",
+        "idCategoria": 1,
+        "claseCategoria": "Mujeres",
+        "marca": "Dior",
+        "precio": 19000,
+        "stock": 30,
+        "img": "missdior.jpeg"
+    },
+    {
+        "id": 5,
+        "nombre": "Jadore",
+        "claseCategoria": "Mujeres",
+        "idCategoria": 1,
+        "marca": "Dior",
+        "precio": 16000,
+        "stock": 12,
+        "img": "jadore.jpeg"
+    },
+    {
+        "id": 6,
+        "nombre": "Polo Blue",
+        "idCategoria": 1,
+        "claseCategoria": "Hombres",
+        "marca": "Ralph Lauren",
+        "precio": 17000,
+        "stock": 20,
+        "img": "poloblue.jpeg"
+    },
+    {
+        "id": 7,
+        "idCategoria": 2,
+        "nombre": "Polo Black",
+        "claseCategoria": "Hombres",
+        "marca": "Ralph Lauren",
+        "precio": 17000,
+        "stock": 10,
+        "img": "poloblack.jpeg"
+
+    }
+
+]

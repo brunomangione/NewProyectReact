@@ -5,7 +5,7 @@ import Dropdown from '../layouts/Dropdown';
 import Form from '../layouts/Form';
 
 const Navbar = () => {
-  const listDrowdown = ["Fragancias Hombres", "Fragancias Mujeres"]
+  const listDrowdown = ["Hombres", "Mujeres"]
     return (
         <>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">

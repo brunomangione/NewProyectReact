@@ -18,14 +18,13 @@ const App = () => {
           <BrowserRouter>
             <Navbar/>
               <Routes>
-              <Route path="/" element={<Home/>} />
-              <Route path="/productos/:id" element={<Productos/>} />
-              <Route path="/categoria/:id" element={<Categoria/>} />
-              <Route path="/about" element={<About/>} />
-              <Route path="/contacto" element={<Contacto/>} />
-              <Route path="/carrito" element={<Carrito/>} />
+                <Route path="/" element={<Home/>} />
+                <Route path="/productos/:id" element={<Productos/>} />
+                <Route path="/categoria/:id" element={<Categoria/>} />
+                <Route path="/about" element={<About/>} />
+                <Route path="/contacto" element={<Contacto/>} />
+                <Route path="/carrito" element={<Carrito/>} />
               </Routes>
-              
           </BrowserRouter>
           
           

@@ -15,19 +15,14 @@ const Contador = () => {
         }
     }
 
-    return ( <
-        >
-        <
+    return (
+            <>
+    
+        <button onClick = {() => modificarContador("+")}className = 'btn btn-dark'>Sumar</button> { contador } <
         button onClick = {
-            () => modificarContador("+")
+            () => modificarContador("-")}className='btn btn-light'>Restar</button> </>);
+        
         }
-        className = 'btn btn-dark' > Sumar < /button> { contador } <
-        button onClick = {
-            () => modificarContador("-")
-        }
-        className = 'btn btn-light' > Restar < /button> < /
-        >
-    );
-}
+
 
 export default Contador;

@@ -5,9 +5,10 @@ import '../styles/App.css'
 import Carrito from './contents/Carrito';
 import About from './contents/About';
 import Contacto from './contents/Contacto';
-import Productos from './contents/Productos';
+import Producto from './contents/Producto';
 import Home from './contents/Home';
 import Categoria from './contents/Categoria';
+import { CarritoProvider } from '../context/CarritoContext';
 
 
 
@@ -15,18 +16,19 @@ import Categoria from './contents/Categoria';
 const App = () => {
     return (
         <>
+          <CarritoProvider>
           <BrowserRouter>
             <Navbar/>
               <Routes>
                 <Route path="/" element={<Home/>} />
-                <Route path="/productos/:id" element={<Productos/>} />
+                <Route path="/producto/:id" element={<Producto/>} />
                 <Route path="/categoria/:id" element={<Categoria/>} />
                 <Route path="/about" element={<About/>} />
                 <Route path="/contacto" element={<Contacto/>} />
                 <Route path="/carrito" element={<Carrito/>} />
               </Routes>
           </BrowserRouter>
-          
+          </CarritoProvider>
           
           
 

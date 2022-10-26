@@ -22,7 +22,7 @@ const Navbar = () => {
               <div>
                 <ul className="navbar-nav me-auto">
                   <li className="nav-item">
-                    <a className="nav-link" href="#"><i className="fa-solid fa-cart-shopping"></i> <span className="visually-hidden"></span></a>
+                    <a className="nav-link" href="/carrito"><i className="fa-solid fa-cart-shopping"></i> <span className="visually-hidden"></span></a>
 
                   </li>
                 </ul>

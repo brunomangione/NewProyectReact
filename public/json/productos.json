@@ -6,7 +6,7 @@
         "marca": "Dior",
         "precio": 20000,
         "stock": 30,
-        "img": "diorhomme.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/newproyectreact.appspot.com/o/Imagenes%2Fdiorhomme.jpeg?alt=media&token=e8fa3107-d763-4a12-9db7-1b1c88b2b5b1"
     },
     {
         "id": 2,
@@ -16,7 +16,7 @@
         "marca": "Carolina Herrera",
         "precio": 18000,
         "stock": 15,
-        "img": "heroesm.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/newproyectreact.appspot.com/o/Imagenes%2Fheroesm.jpeg?alt=media&token=a46e4ee3-db54-4917-993c-433ee52880ed"
     },
     {
         "id": 3,
@@ -26,7 +26,7 @@
         "marca": "Carolina Herrera",
         "precio": 19000,
         "stock": 15,
-        "img": "heroesw.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/newproyectreact.appspot.com/o/Imagenes%2Fheroesw.jpeg?alt=media&token=77ee0335-447e-4481-8f61-e5a2dd138921"
     },
     {
         "id": 4,
@@ -36,7 +36,7 @@
         "marca": "Dior",
         "precio": 19000,
         "stock": 30,
-        "img": "missdior.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/newproyectreact.appspot.com/o/Imagenes%2Fmissdior.jpeg?alt=media&token=2f667cb8-82e2-4a6e-a5b8-b303e17fdbbe"
     },
     {
         "id": 5,
@@ -46,7 +46,7 @@
         "marca": "Dior",
         "precio": 16000,
         "stock": 12,
-        "img": "jadore.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/newproyectreact.appspot.com/o/Imagenes%2Fjadore.jpeg?alt=media&token=3b41ccfa-3252-44a6-b7d0-7b6e9cb8dacc"
     },
     {
         "id": 6,
@@ -56,7 +56,7 @@
         "marca": "Ralph Lauren",
         "precio": 17000,
         "stock": 20,
-        "img": "poloblue.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/newproyectreact.appspot.com/o/Imagenes%2Fpoloblue.jpeg?alt=media&token=c74cc67a-244f-4eba-a73c-2ed6f70343a8"
     },
     {
         "id": 7,
@@ -66,7 +66,7 @@
         "marca": "Ralph Lauren",
         "precio": 17000,
         "stock": 10,
-        "img": "poloblack.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/newproyectreact.appspot.com/o/Imagenes%2Fpoloblack.jpeg?alt=media&token=1c43224c-3662-477e-bb0d-00aa04308936"
 
     }
 

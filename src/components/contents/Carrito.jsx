@@ -1,6 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
 import { CarritoContext } from '../../context/CarritoContext';
-import { mostrarCarrito } from '../../utils/funcionesUtiles';
 
 const Carrito = () => {
     const {carrito, agregarProducto, quitarProducto} = useContext(CarritoContext)
@@ -21,7 +20,7 @@ const Carrito = () => {
         setCarritoLocal(prodMostrar)
     }, [carrito]);
     
-   const app = (carrito.length != 0) ? <div className='row'> {carritoLocal} </div> : <> <h1>No existen elementos en el carrito <button className='btn btn-dark'>Ir al Home</button></h1></>
+   const app = (carrito.length != 0) ? <div className='row'> {carritoLocal} </div> : <> <h1>No existen elementos en el carrito <button className='btn btn-dark' >Volver al Home</button></h1></>
           
     return app
 }

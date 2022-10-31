@@ -8,7 +8,7 @@ import Contacto from './contents/Contacto';
 import Producto from './contents/Producto';
 import Home from './contents/Home';
 import Categoria from './contents/Categoria';
-import { CarritoProvider } from '../context/CarritoContext';
+
 
 
 
@@ -16,7 +16,7 @@ import { CarritoProvider } from '../context/CarritoContext';
 const App = () => {
     return (
         <>
-          <CarritoProvider>
+          
           <BrowserRouter>
             <Navbar/>
               <Routes>
@@ -28,7 +28,7 @@ const App = () => {
                 <Route path="/carrito" element={<Carrito/>} />
               </Routes>
           </BrowserRouter>
-          </CarritoProvider>
+          
           
           
 

@@ -1,6 +1,5 @@
-import { async } from "@firebase/util";
 import { initializeApp } from "firebase/app";
-import { collection, doc, addDoc, getFirestore, getDocs, getDoc } from "firebase/firestore"
+import { collection, doc, addDoc, getFirestore, getDocs, getDoc, upDateDoc } from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -34,7 +33,6 @@ const cargarBaseDeDatos = async() => {
 const getProducto = async(id) => {
     const producto = await getDoc(doc(db, "productos", id))
     const prod = [producto.id, producto.data()]
-    console.log(prod)
     return prod
 }
 
@@ -44,4 +42,22 @@ const getProductos = async() => {
     return items
 }
 
-export { cargarBaseDeDatos, getProductos, getProducto };
+const createOrdenCompra = async(preTotal, nombre, apellido, email, dni) => {
+    const ordenCompra = await addDoc(collection(db, "ordenCompra"), {
+        nombre: nombre,
+        apellido: apellido,
+        email: email,
+        dni: dni,
+        precioTotal: preTotal
+    })
+
+    return ordenCompra
+}
+
+const getOrdenCompra = async(id) => {
+    const ordenCompra = await getDoc(doc(db, "ordenCompra", id))
+    return ordenCompra
+}
+
+
+export { cargarBaseDeDatos, getProductos, getProducto, createOrdenCompra, getOrdenCompra }

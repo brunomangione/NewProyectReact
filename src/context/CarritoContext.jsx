@@ -8,8 +8,7 @@ const CarritoProvider = (props) => {
 
     const agregarProducto = (prod, cant) => {
         const aux = carrito
-        let indice = aux.findIndex(producto => producto.id  == prod.id) //Si existe o no
-
+        let indice = aux.findIndex(producto => producto.id  == prod.id) 
         if(indice != -1) {
             aux[indice].cantidad = cant
         } else {
